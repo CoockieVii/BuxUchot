@@ -1,2 +1,7 @@
+from User import User
+
+
 class Expenditure:
-	pass
+    def __init__(self, user: User, sum):
+        self.user = user
+        self.sum = sum
